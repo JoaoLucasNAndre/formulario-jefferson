@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-/* adiciona o CSS para uma fonte personalizada  */
+
 
 * {
     margin: 0;
@@ -41,7 +41,6 @@ form {
     width: 500px;
     height: 100vh;
     float: right;
-    /* desloca o formulário para a direita da página  */
     background-color: #ffffff;
     padding: 25px 50px 25px 50px;
 }
@@ -50,7 +49,7 @@ form .form-group {
     margin-top: 15px;
 }
 
-/* Cria um estilo para os labels, menos os que tiverem a propriedade "for" com os valores abaixo */
+
 label:not([for="html"], [for="css"], [for="javascript"], [for="php"]) {
     display: block;
     margin-bottom: 8px;
@@ -89,7 +88,7 @@ button {
     font-size: 16px;
 }
 
-/* informa que o estilo do botão será alterado quando houver um evento de mouse sobre ele */
+
 button:hover {
     background-color: #4285f4;
 }
